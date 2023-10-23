@@ -35,8 +35,8 @@ planter --driver postgres  ...
 ✌️ add SVG generation
 
 ## 🤪 Installation
-```shell
-go install -u github.com/maocatooo/planter
+```
+go install github.com/maocatooo/planter@latest
 ```
 
 
