@@ -1,8 +1,9 @@
 planter
 
-
 🥺 Reference from https://github.com/achiku/planter
 
+
+## 🤪 Help
 ```shell
 planter --help
 
@@ -20,8 +21,9 @@ Flags:
       --svg                  gen svg
 ```
 
-### feature
-✌️ add MySQL generation for corresponding PlantUML(MySQL is the default driver)
+## feature
+
+✌️ add MySQL generation for corresponding PlantUML (MySQL is the default driver)
 ```shell
 planter --driver mysql  root:123456@tcp(127.0.0.1:3306)/test -o test.uml
 # use PostgreSQL
@@ -32,13 +34,19 @@ planter --driver postgres  ...
 
 ✌️ add SVG generation
 
+## 🤪 Installation
+```shell
+go install -u github.com/maocatooo/planter
+```
 
-#### 🤪 Generate PlantUML 
+
+
+## 🤪 Generate PlantUML 
 ```shell
 planter root:123456@tcp(127.0.0.1:3306)/test -o test.uml
 ```
 
-#### 🤪 Generate SVG 
+## 🤪 Generate SVG 
 ```shell
 planter root:123456@tcp(127.0.0.1:3306)/test -o test.svg --svg
 ```
